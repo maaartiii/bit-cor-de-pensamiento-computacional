@@ -1,85 +1,168 @@
-Album seleccionado: "los tres"
-año:1991
-artistas: los tres
-tracklist:
--Somos tontos no pesados
--El haz sensor 
--Sudapara 
--Flores secas 
--Pajaros de fuego
--La primera vez 
--En jamaica 
--Un amor violento 
--Amores incompletos 
--He barrido el sol
 
-# Formato de entrega
 
-Producir una imagen en movimiento basada en la estética de un álbum de música chilena (referencias visuales, videoclips, letras, instrumentación, atmósfera, contexto histórico, etc.).
+## Integrantes del grupo
 
-Al final de este documento encontrarán webs para hallar referentes de música chilena.
+- (Martina Acevedo) [cuentaGithub](https://github.com/cuentaGithub)
+- (Benjamin Marchant) [cuentaGithub](https://github.com/cuentaGithub)
 
-### Descripción del disco
+## Descripción del disco
 
-1. ⁠Álbum
-2. ⁠Nombre del álbum, año
-3. ⁠Artista(s)
-4. ⁠Tracklist
-5. ⁠¿Qué aspecto del álbum te interesa desarrollar en tu código y por qué? (premisa)
+![Portada de álbum xxxx yyyy](./img/cover.jpg)
 
-### ⁠ ⁠Conclusión del proceso
+- Nmbre del album:
+- "los tres"
+- Año:
+-  1991
+- Artista:
+-  los tres
+- Tracklist:
+- Somos tontos no pesados
+- El haz sensor 
+- Sudapara 
+- Flores secas 
+- Pajaros de fuego
+- La primera vez 
+- En jamaica 
+- Un amor violento 
+- Amores incompletos 
+- He barrido el sol
 
-- ⁠¿Cómo se compara lo que querían desarrollar con el resultado final?
-- ⁠¿Lograste desarrollar los aspectos que querías? Si no, ¿cuáles?
-- ⁠¿Qué aspectos emergieron?
+```txt
+1. Cancion 1
+-  Amor violento
+2. Cancion 2
+-  He barrido el sol
+3. Cancion 3
+-  Sudapara
+```
 
-### ⁠ Explicación del código
+- Aspecto del álbum a desarrollar (premisa)
 
-Selecciona 3 secciones de tu código y comenta cómo funcionan.
+> 
+## Integrantes del grupo
 
-### ⁠Uso de IA (autorizado)
+- (Martina Acevedo) [cuentaGithub](https://github.com/cuentaGithub)
+- (Benjamin Marchant) [cuentaGithub](https://github.com/cuentaGithub)
 
-- Mencionar ⁠IA's utilizada(s)
+## Descripción del disco
 
-- ⁠Qué problema querían resolver
+![Portada de álbum xxxx yyyy](./img/cover.jpg)
 
-- ⁠Qué prompt usaron
+- Nmbre del album:
+- "los tres"
+- Año:
+-  1991
+- Artista:
+-  los tres
+- Tracklist:
+- Somos tontos no pesados
+- El haz sensor 
+- Sudapara 
+- Flores secas 
+- Pajaros de fuego
+- La primera vez 
+- En jamaica 
+- Un amor violento 
+- Amores incompletos 
+- He barrido el sol
 
-- ⁠Qué resultado les dio la IA
+```txt
+1. Cancion 1
+-  Amor violento
+2. Cancion 2
+-  He barrido el sol
+3. Cancion 3
+-  Sudapara
+```
 
-### ⁠Código
+- Aspecto del álbum a desarrollar (premisa)
 
-Deben ocurrir como mínimo 3 tipos de variación o transformación a través del tiempo:
+> Quisimos trabajar con los colores del álbum y ponerlos en el fondo con las herramientas que se nos han enseñado. 
+Dependiendo de la posición del mouse, se muestran los distintos colores de la paleta original (azul, ocre y oscuro).
+También nos gustó la idea de dejar una estela o rastro difuso cada vez que la imagen se mueva, inspirados en la atmósfera 
+de sus videos musicales. Queríamos aventurarnos con ello, además de lograr que la imagen principal cambie dinámicamente de
+tamaño conforme interactuamos con el lienzo.
 
-•⁠  ⁠tamaño
-•⁠  ⁠posición
-•⁠  ⁠rotación
-•⁠  ⁠color
-•⁠  ⁠forma
-•⁠  ⁠emergencia
-•⁠  ⁠opacidad
-•⁠  ⁠movimiento lineal o discontinuo.
+## Conclusión del proceso
 
-- Si incluyen interacción (mouse, teclado), debe estar explícita e incluir una instrucción o invitación hacia la interacción.
+- Distancia entre premisa y resultado
 
-## Evaluación y formato de entrega
+> La verdad es que lo logramos bastante bien. Conseguimos una interacción fluida y cumplimos la gran mayoría
+de las cosas que nos propusimos. Estamos muy contentos con el resultado del trabajo y con todo el conocimiento que adquirimos en el proceso.
 
-Al igual que solemne 1, se revisarán entregas de proceso anteriores, según las tareas de canvas indicadas.
+- Cosas no conseguidas
 
-Se revisará en la clase del 22 de mayo con una interrogación oral para dar cuenta de aprendizaje a través de entendimiento de código.
+> Incorporar múltiples imágenes independientes moviéndose en distintas direcciones simultáneamente.
+Creemos que esto no se debió a una falta de capacidad, sino a que concentramos nuestros esfuerzos y nos preocupamos más
+por perfeccionar la estela, la rotación y la transición de colores del fondo, los cuales encontramos más interesantes
+de descubrir y desarrollar.
 
-## Referentes
+- Descubrimientos al trabajar
 
-- ⁠Sello Alerce <https://es.wikipedia.org/wiki/Alerce,_la_otra_m%C3%BAsica>
+> Lograr el efecto de estela o rastro transparente al desplazar la imagen, incorporar partículas flotantes que simulan
+la estética de sus videos musicales y programar una aceleración de giro suave que se activa únicamente al mantener presionado el mouse.
 
-- ⁠Pueblo Nuevo <https://pueblonuevo.cl/>
+## Explicación del código (3 aspectos)
 
-- Página de música nacional ⁠<https://www.musicapopular.cl>
+### Bloque de código 1
 
-- Blog con música de Chile ⁠<https://discotecanacionalchile.blogspot.com>
+```js
+// Tu pedazo de código acá
+```
 
-- Libro "Casete Nacional" <https://www.libreriadelgam.cl/libro/casete-nacional_108435>
+### Bloque de código 2
 
-## POR HACER (Equipo docente)
+```js
+// Tu pedazo de código acá
+```
 
-Plantilla de markdown para que sea entregada en un solo archivo en sus github.
+### Bloque de código 3
+
+```js
+// Tu pedazo de código acá
+```
+
+### Declaración sobre el uso de IA
+
+- IA utilizada(s) y tipo de licencia (pago, gratuita)
+
+> > Gemini (Gratuita).
+
+- Problema a resolver a través de la IA
+
+> Utilizamos la IA , específicamente para pedirle algunas ideas sobre cómo podíamos desarrollar
+técnicamente dos funciones más complejas: la creación del efecto de estelacon la imagen en movimiento y la 
+lógica para hacer que la imagen principal rotara al interactuar con el mouse. Cada vez que acudimos a ella,
+nos preocupamos de pedirle explicaciones detalladas para entender perfectamente cómo funcionaba esa lógica de programación.
+
+- Prompts utilizados
+
+> "Queremos agregar un efecto de rastro o estela con la imagen del álbum que se vaya desvaneciendo a
+medida que movemos el mouse por el lienzo. ¿Qué ideas o herramientas nos recomiendas usar en p5.js para lograrlo y
+cómo funciona la lógica detrás de ese efecto?"
+
+> "Tenemos la idea de que la imagen principal empiece a rotar en su propio eje cuando mantengamos presionado el mouse.
+¿Cómo podemos programar esa rotación de manera suave y qué hacen exactamente las funciones push() y pop() 
+para que el giro no afecte al resto de la pantalla? Explícanos paso a paso."
+
+
+
+- Secciones de código entregadas por la IA
+
+```js
+//código entregado por IA acá
+```
+
+// Lógica sugerida para el desvanecimiento de los elementos de la estela
+for (let i = estela.length - 1; i >= 0; i--) {
+  if (estela[i].alfa <= 0) {
+    estela.splice(i, 1);
+
+// Estructura recomendada para suavizar la velocidad de rotación con el mouse
+if (mouseIsPressed) {
+  velocidadRotacion = lerp(velocidadRotacion, velocidadMaxima, 0.1); 
+} else {
+  velocidadRotacion = lerp(velocidadRotacion, 0, 0.1); 
+}
+angulo += velocidadRotacion;
+```
