@@ -1,7 +1,7 @@
 ## Integrantes del grupo
 
 - (Martina Acevedo) [cuentaGithub](https://github.com/maaartiii)
-- (Benjamin Marchant) [cuentaGithub](https://github.com/cuentaGithub)
+- (Benjamin Marchant) [cuentaGithub](https://github.com/pansitoaceituna)
 
 ## Descripción del disco
 
