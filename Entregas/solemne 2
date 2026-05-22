@@ -1,47 +1,6 @@
-
-
 ## Integrantes del grupo
 
-- (Martina Acevedo) [cuentaGithub](https://github.com/cuentaGithub)
-- (Benjamin Marchant) [cuentaGithub](https://github.com/cuentaGithub)
-
-## Descripción del disco
-
-![Portada de álbum xxxx yyyy](./img/cover.jpg)
-
-- Nmbre del album:
-- "los tres"
-- Año:
--  1991
-- Artista:
--  los tres
-- Tracklist:
-- Somos tontos no pesados
-- El haz sensor 
-- Sudapara 
-- Flores secas 
-- Pajaros de fuego
-- La primera vez 
-- En jamaica 
-- Un amor violento 
-- Amores incompletos 
-- He barrido el sol
-
-```txt
-1. Cancion 1
--  Amor violento
-2. Cancion 2
--  He barrido el sol
-3. Cancion 3
--  Sudapara
-```
-
-- Aspecto del álbum a desarrollar (premisa)
-
-> 
-## Integrantes del grupo
-
-- (Martina Acevedo) [cuentaGithub](https://github.com/cuentaGithub)
+- (Martina Acevedo) [cuentaGithub](https://github.com/maaartiii)
 - (Benjamin Marchant) [cuentaGithub](https://github.com/cuentaGithub)
 
 ## Descripción del disco
@@ -105,21 +64,89 @@ la estética de sus videos musicales y programar una aceleración de giro suave 
 ## Explicación del código (3 aspectos)
 
 ### Bloque de código 1
+Este bloque cambia el color del fondo dependiendo de la posición vertical del mouse.
 
+Arriba → azul
+Medio → ocre
+Abajo → oscuro
+
+mouseY / height
+convierte la posición del mouse en un valor entre 0 y 1.
+
+Después lerpColor() mezcla colores suavemente.
 ```js
 // Tu pedazo de código acá
 ```
+let porcentajeY = mouseY / height;
 
+if (porcentajeY < 0.5) {
+ colorFondo = lerpColor(azulAlbum, ocreAlbum, porcentajeY * 2);
+} else {
+ colorFondo = lerpColor(ocreAlbum, oscuroAlbum, (porcentajeY - 0.5) * 2);
+}
+
+background(colorFondo);
 ### Bloque de código 2
+Este bloque crea el efecto de “rastro” o “fantasma”.
+
+Cada frame:
+
+guarda la posición actual del mouse
+dibuja una copia de la imagen
+reduce su transparencia
+estela.push()
+guarda nuevas posiciones en un arreglo.
+
+Y:
+
+copia.alfa -= 5;
+hace que desaparezcan lentamente.
 
 ```js
 // Tu pedazo de código acá
 ```
+let nuevaPosicion = {
+  x: mouseX,
+  y: mouseY,
+  alfa: 255,
+  w: tamano
+};
+
+estela.push(nuevaPosicion);
+
+for (let i = 0; i < estela.length; i++) {
+  let copia = estela[i];
+
+  tint(255, copia.alfa);
+  image(img, copia.x, copia.y, copia.w, copia.w);
+
+  copia.alfa -= 5;
+}
 
 ### Bloque de código 3
+¿Qué hace?
+
+Hace que la imagen gire suavemente cuando haces click
+
+
+lerp() suaviza el cambio de velocidad.
+
+En vez de pasar instantáneamente de:
+
+0 → 0.1
+la velocidad aumenta poco a poco.
 
 ```js
 // Tu pedazo de código acá
+if (mouseIsPressed) {
+  velocidadRotacion = lerp(velocidadRotacion, velocidadMaxima, 0.1);
+} else {
+  velocidadRotacion = lerp(velocidadRotacion, 0, 0.1);
+}
+
+angulo += velocidadRotacion;
+
+
 ```
 
 ### Declaración sobre el uso de IA
