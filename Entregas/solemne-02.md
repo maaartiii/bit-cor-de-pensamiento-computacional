@@ -5,7 +5,8 @@
 
 ## Descripción del disco
 
-![Portada de álbum xxxx yyyy](./img/cover.jpg)
+![Portada de álbum xxxx yyyy](./img/lostres.jpg)
+
 
 - Nmbre del album:
 - "los tres"
